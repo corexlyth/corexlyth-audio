@@ -6,16 +6,21 @@ Bu kayıt bir telif hakkı sahipliği veya yeniden lisanslama beyanı değildir.
 
 ## Lisans Notu
 
-Pixabay kaynaklı parçalar **Pixabay Content License** kapsamında projelerde kullanılabilir.
+CoreXLyth Audio deposunda bulunan üçüncü taraf eserlerin hakları ilgili eser sahiplerine aittir.
 
-Pixabay Content License, içeriğin yaratıcı bir projenin parçası olarak kullanılmasına izin verir ancak içeriğin esasen aynı biçimde **standalone olarak dağıtılmasını** yasaklar.
+Pixabay kaynaklı parçalar **Pixabay Content License** kapsamında edinilmiştir.
+
+Pixabay Content License, içeriğin daha büyük ve yaratıcı bir çalışmanın parçası olarak kullanılmasına izin verir; ancak içeriğin esasen orijinal hâliyle standalone olarak yeniden dağıtılmasına sınırlamalar getirir.
 
 Bu nedenle:
 
-**Blog içerisinde arka plan müziği olarak kullanım** ile  
-**public GitHub deposundan ham MP3 dağıtımı**
+**CoreXLyth içerisinde arka plan müziği olarak kullanım**
 
-aynı lisans durumu olarak değerlendirilmemelidir.
+ile
+
+**public GitHub deposunda ham MP3 dosyasının doğrudan sunulması**
+
+aynı lisans kullanımı olarak değerlendirilmemelidir.
 
 Pixabay Lisans Özeti:
 
@@ -27,29 +32,26 @@ https://pixabay.com/service/terms/
 
 ---
 
-# CORE
+# GLOBAL CORE MUSIC POOL
 
-CORE havuzu yalnızca CoreXLyth ana sayfası ve belirlenen statik sayfalarda kullanılmak üzere ayrılmıştır.
+CoreXLyth artık tek bir global müzik havuzu kullanır.
 
-| Dosya | Sanatçı | Pixabay ID | Kaynak | Lisans |
+Tema tarafından kullanılan aktif müzik klasörü:
+
+`core/`
+
+Aşağıdaki parçalar aynı global playlist içerisinde yer alır.
+
+| Dosya | Sanatçı | Kaynak ID | Kaynak | Lisans |
 |---|---|---:|---|---|
 | `alexzavesa-cyberpunk-dark-implants-512560.mp3` | AleXZavesa | 512560 | https://pixabay.com/music/beats-cyberpunk-dark-implants-512560/ | Pixabay Content License |
+| `dedpled-ur-so-lo-fi-dnb-phonk-151063.mp3` | Dedpled | 151063 | https://pixabay.com/music/drum-n-bass-ur-so-lo-fi-dnb-phonk-151063/ | Pixabay Content License |
 | `hitslab-cyberpunk-futuristic-cyberpunk-industrial-music-474697.mp3` | HitsLab | 474697 | https://pixabay.com/music/rock-cyberpunk-futuristic-cyberpunk-industrial-music-474697/ | Pixabay Content License |
+| `kulakovka-fashion-session-566503.mp3` | Kulakovka | 566503 | https://pixabay.com/music/acoustic-group-fashion-session-566503/ | Pixabay Content License |
 | `pixelmaniaxx-deropolisexe-367607.mp3` | Pixelmaniax | 367607 | https://pixabay.com/music/electronic-deropolisexe-367607/ | Pixabay Content License |
 | `poradovskyi-cyberpunk-futuristic-city-music-515002.mp3` | Poradovskyi | 515002 | https://pixabay.com/music/phonk-cyberpunk-futuristic-city-music-515002/ | Pixabay Content License |
 | `poradovskyi-cyberpunk-futuristic-music-514973.mp3` | Poradovskyi | 514973 | https://pixabay.com/music/phonk-cyberpunk-futuristic-music-514973/ | Pixabay Content License |
 | `prettyjohn1-suspense-cyberpunk-517449.mp3` | prettyjohn1 | 517449 | https://pixabay.com/music/phonk-suspense-cyberpunk-517449/ | Pixabay Content License |
-
----
-
-# PHONK
-
-PHONK havuzu `_music_phonk` sistem etiketi kullanılan içeriklerde kullanılmak üzere ayrılmıştır.
-
-| Dosya | Sanatçı | Pixabay ID | Kaynak | Lisans |
-|---|---|---:|---|---|
-| `dedpled-ur-so-lo-fi-dnb-phonk-151063.mp3` | Dedpled | 151063 | https://pixabay.com/music/drum-n-bass-ur-so-lo-fi-dnb-phonk-151063/ | Pixabay Content License |
-| `kulakovka-fashion-session-566503.mp3` | Kulakovka | 566503 | https://pixabay.com/music/acoustic-group-fashion-session-566503/ | Pixabay Content License |
 | `solarflex-phonk-background-music-558237.mp3` | SolarFLEX | 558237 | Orijinal Pixabay sayfası yeniden doğrulanacak | Pixabay Content License |
 | `sub_clair-indian-phonk-instrumental-594713.mp3` | Sub_Clair | 594713 | https://pixabay.com/music/phonk-indian-phonk-instrumental-594713/ | Pixabay Content License |
 | `sub_clair-phonk-instrumental-610091.mp3` | Sub_Clair | 610091 | Orijinal Pixabay sayfası yeniden doğrulanacak | Pixabay Content License |
@@ -61,48 +63,35 @@ PHONK havuzu `_music_phonk` sistem etiketi kullanılan içeriklerde kullanılmak
 
 ---
 
-# HISTORY
-
-| Dosya | Sanatçı | Pixabay ID | Kaynak | Lisans |
-|---|---|---:|---|---|
-| `atlasaudio-historical-519440.mp3` | AtlasAudio | 519440 | https://pixabay.com/music/modern-classical-historical-519440/ | Pixabay Content License |
-| `yevhenastafiev-historical-history-historical-534555.mp3` | YevhenAstafiev | 534555 | https://pixabay.com/music/military-historical-historical-history-historical-534555/ | Pixabay Content License |
-| `sonican-epic-orchestral-music-for-victory-467220.mp3` | Sonican | 467220 | https://pixabay.com/music/orchestral-epic-orchestral-music-for-victory-467220/ | Pixabay Content License |
-| `musicinmedia-epic-historical-orchestral-244718.mp3` | MusicInMedia | 244718 | https://pixabay.com/music/adventure-epic-historical-orchestral-244718/ | Pixabay Content License |
-| `sonican-epic-inspirational-orchestral-dramatic-historical-documentary-272303.mp3` | Sonican | 272303 | https://pixabay.com/music/adventure-epic-inspirational-orchestral-dramatic-historical-documentary-272303/ | Pixabay Content License |
-| `sonican-epic-orchestral-victorious-music-full-length-483577.mp3` | Sonican | 483577 | https://pixabay.com/music/orchestral-epic-orchestral-victorious-music-full-length-483577/ | Pixabay Content License |
-| `sonican-powerful-orchestral-music-loop-hybrid-action-483027.mp3` | Sonican | 483027 | https://pixabay.com/music/orchestral-powerful-orchestral-music-loop-hybrid-action-483027/ | Pixabay Content License |
-
----
-
 ## GitHub Pages
 
-Oynatma tabanı:
+Global oynatma tabanı:
 
-`https://corexlyth.github.io/corexlyth-audio/`
+`https://corexlyth.github.io/corexlyth-audio/core/`
 
-Örnek CORE dosyası:
+Örnek:
 
-`https://corexlyth.github.io/corexlyth-audio/core/alexzavesa-cyberpunk-dark-implants-512560.mp3`
-
-Örnek PHONK dosyası:
-
-`https://corexlyth.github.io/corexlyth-audio/phonk/the_mountain-phonk-496452.mp3`
+`https://corexlyth.github.io/corexlyth-audio/core/the_mountain-phonk-496452.mp3`
 
 ---
 
 ## Kayıt Politikası
 
-Yeni ses dosyası eklendiğinde mümkün olduğunca şu bilgiler kaydedilir:
+Yeni bir müzik dosyası `core/` klasörüne eklendiğinde mümkün olduğunca aşağıdaki bilgiler de kaydedilir:
 
 - Dosya adı
-- Parça / sanatçı
+- Parça adı
+- Sanatçı / üretici
 - Orijinal kaynak
 - Kaynak ID
 - Lisans türü
 - Gerekirse Content ID durumu
-- Kaynağın indirildiği veya doğrulandığı tarih
+- Kaynağın doğrulandığı tarih
 
-Kaynağı doğrulanamayan bir parçaya tahmini bağlantı yazılmaz; doğrulama beklediği açıkça belirtilir.
+Kaynağı kesin olarak doğrulanamayan bir eser için tahmini bağlantı yazılmaz.
+
+Doğrulama bekleyen kaynaklar açıkça belirtilir.
+
+CoreXLyth Audio deposunda bir parçanın bulunması, eserin mülkiyetinin CoreXLyth'e ait olduğu anlamına gelmez.
 
 Son güncelleme: 01.10.2026
