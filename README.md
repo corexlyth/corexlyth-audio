@@ -2,38 +2,31 @@
 
 CoreXLyth blogunda kullanılan arka plan müziklerinin barındırıldığı ses deposu.
 
-Müzikler GitHub Pages üzerinden servis edilir ve CoreXLyth temasındaki müzik motoru tarafından kullanılır.
+Müzikler GitHub Pages üzerinden servis edilir ve CoreXLyth temasındaki global müzik oynatıcısı tarafından kullanılır.
 
-## Klasörler
+## Müzik Havuzu
 
-- `core/` → CoreXLyth ana sayfası ve belirlenen statik sayfalarda kullanılan cyberpunk / ambient / site atmosferi müzikleri.
-- `phonk/` → Teknoloji, cyberpunk ve phonk temalı yazılarda kullanılan müzik havuzu.
-- `history/` → Tarih, belgesel ve orkestral içeriklerde kullanılmak üzere ayrılan müzik havuzu.
+CoreXLyth artık tek bir global müzik havuzu kullanır:
 
-## CORE kullanım alanı
+`core/`
 
-`core/` havuzu şu anda yalnızca:
+Bu klasörde bulunan müzikler kategori, yazı türü veya sayfa türü ayrımı yapılmadan CoreXLyth genelinde kullanılabilir.
 
-- Ana sayfa
-- Kaynaklar & Üretim Notları
-- Güncelleme Günlüğü
+Tema tarafında ayrı PHONK, HISTORY veya sayfa bazlı müzik havuzları kullanılmaz.
 
-sayfalarında kullanılmak üzere ayrılmıştır.
+Ana sayfa, blog yazıları, statik sayfalar ve diğer uygun CoreXLyth sayfaları aynı global oynatma sistemini kullanır.
 
-Normal blog yazılarında CORE müzik havuzu çalışmaz.
+## Oynatma Sistemi
 
-## CoreXLyth Music Tags
+Global oynatıcı:
 
-CoreXLyth, Blogger yazılarındaki gizli sistem etiketlerini okuyarak uygun müzik havuzunu seçebilir.
+- `core/` klasöründeki parçaları tek playlist olarak kullanır.
+- İlk girişte playlist içerisinden rastgele bir parçayla başlayabilir.
+- Sonraki parçalar playlist sırasına göre devam edebilir.
+- Kullanıcının müzik açık / kapalı tercihini koruyabilir.
+- Sayfa geçişlerinde mevcut parça ve oynatma konumunun korunması tema tarafından yönetilebilir.
 
-Örnek:
-
-- `_music_phonk`
-- `_music_history`
-
-Bu etiketler ziyaretçilere gösterilmez; yalnızca tema tarafından müzik sistemini kontrol etmek için kullanılır.
-
-CORE havuzu ise bir yazı etiketiyle değil, tema tarafından belirlenen ana ve statik sayfa rotaları üzerinden çalışır.
+Playlist davranışı CoreXLyth tema sürümüne göre değişebilir.
 
 ## GitHub Pages
 
@@ -41,9 +34,13 @@ Ana ses adresi:
 
 `https://corexlyth.github.io/corexlyth-audio/`
 
+Global müzik havuzu:
+
+`https://corexlyth.github.io/corexlyth-audio/core/`
+
 Örnek:
 
-`https://corexlyth.github.io/corexlyth-audio/phonk/the_mountain-phonk-496452.mp3`
+`https://corexlyth.github.io/corexlyth-audio/core/the_mountain-phonk-496452.mp3`
 
 ## Kaynak ve Lisanslar
 
@@ -51,15 +48,17 @@ Bu depodaki üçüncü taraf müzikler için tek bir genel lisans uygulanmaz.
 
 Her ses dosyası kendi kaynak lisansına tabidir.
 
-Sanatçı, kaynak, kaynak kimliği ve lisans bilgileri mümkün olduğunca `SOURCES.md` içerisinde dosya bazında kayıt altında tutulur.
+Sanatçı, kaynak, kaynak kimliği ve lisans bilgileri `SOURCES.md` içerisinde dosya bazında kayıt altında tutulur.
 
 > Bir ses dosyasının bu depoda bulunması, CoreXLyth'in o eserin telif hakkı sahibi olduğu veya eseri yeniden lisansladığı anlamına gelmez.
 
-Pixabay kaynaklı müzikler Pixabay Content License kapsamında projelerde kullanılabilir. Ancak Pixabay, içeriğin esasen orijinal hâliyle standalone olarak dağıtılmasını yasaklar.
+Pixabay kaynaklı parçaların CoreXLyth içerisinde arka plan müziği olarak kullanılması ile ham MP3 dosyalarının public bir GitHub deposunda yeniden dağıtılması aynı lisans konusu değildir.
 
-Bu nedenle public GitHub deposunda ham MP3 dosyalarının doğrudan dağıtılması, parçanın CoreXLyth içerisinde arka plan müziği olarak kullanılmasından ayrı bir lisans konusu olarak değerlendirilmelidir.
+Pixabay Content License, içeriğin yaratıcı projelerde kullanılmasına izin verir ancak içeriğin esasen orijinal hâliyle standalone olarak yeniden dağıtılmasına sınırlamalar getirir.
 
-Yeni bir müzik eklendiğinde ilgili kaynak bilgisi `SOURCES.md` dosyasına da eklenmelidir.
+Bu nedenle yeni bir müzik eklenmeden önce kaynağı ve kullanım koşulları kontrol edilmelidir.
+
+Yeni bir ses dosyası eklendiğinde `SOURCES.md` kaydı da güncellenmelidir.
 
 ---
 
